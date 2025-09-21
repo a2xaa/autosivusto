@@ -1,0 +1,16 @@
+<%- include('../osapohjat/header'); %>
+
+<h1>Auton lisäys</h1>
+<!--Tähän teet lomakkeen ja sen lomakkeen pitää olla sellainen, että saat lomakkeen tiedot välitettyä sille app.post...-->
+<form action="/lisays" method="POST">
+    <label for="merkki">Merkki</label><br>
+    <input type="text" id="merkki" name="merkki"><br>
+    <label for="malli">Malli:</label><br>
+    <input type="text" id="malli" name="malli"><br>
+    <label for="vuosimalli">Vuosimalli</label><br>
+    <input type="text" id="vuosimalli" name="vuosimalli"><br>
+    <label for="omistaja">Omistaja</label><br>
+    <input type="text" id="omistaja" name="omistaja"><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+<%- include('../osapohjat/footer'); %>

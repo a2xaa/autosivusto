@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <%= otsikko %> - Listasovellus
+    </title>
+    <style>
+        /* Style the header */
+        ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        li {
+            margin: 20px;
+        }
+
+        header {
+            background-color: #949494;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(0, 0, 0);
+        }
+
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        tr:nth-child(even) {
+            background-color: #c8c8c8;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        th,
+        td {
+            padding: 5px;
+        }
+    </style>
+</head>
+<header>
+    <h2>Autosivusto</h2>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="autot">Autolista</a></li>
+        <li><a href="lisays">Lisää auto</a></li>
+    </ul>
+    <form action="/autohaku" method="get">
+        <label for="haku">Auton haku</label><br>
+        <input type="text" id="haku" name="haku">
+        <input type="submit" value="Submit">
+    </form>
+</nav>
+
+
+
+
+
+<body>

@@ -1,0 +1,37 @@
+<%- include('../osapohjat/header'); %>
+
+    <h1>
+        <%= otsikko %>
+    </h1>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Merkki</th>
+            <th>Malli</th>
+            <th>Vuosimalli</th>
+            <th>Omistaja</th>
+        </tr>
+        <% autot.forEach(auto => { %>
+            <tr>
+                <td>
+                    <%= auto.id %>
+                </td>
+                <td>
+                    <%= auto.merkki %>
+                </td>
+                <td>
+                    <%= auto.malli %>
+                </td>
+                <td>
+                    <%= auto.vuosimalli %>
+                </td>
+                <td>
+                    <%= auto.omistaja %>
+                </td>
+            </tr>
+            <% }); %>
+    </table>
+
+      
+
+                <%- include('../osapohjat/footer'); %>
