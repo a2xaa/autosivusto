@@ -1,6 +1,7 @@
 {
     "host": "localhost",  
     "user": "root",  
-    "password": "X1917@kYb4S",  
+    "password": "PASSWORD",  
     "database": "autotietokanta"
+
 }
