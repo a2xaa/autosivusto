@@ -1,8 +1,5 @@
 # 🚗 Autosivusto
 
-Autosivusto is a web application for showcasing and managing cars.  
-It allows users to browse, add, and view car listings with a modern interface.  
-
 ---
 
 ## 📦 Getting Started
