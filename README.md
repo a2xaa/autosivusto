@@ -3,6 +3,8 @@
 ---
 A car website where you can list cars, search for cars, and add a new car.
 
+This was a school assignment.
+
 ## 📦 Getting Started
 
 To set up and run Autosivusto locally, follow these steps:
