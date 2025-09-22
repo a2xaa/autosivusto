@@ -1,6 +1,7 @@
 # 🚗 Autosivusto
 
 ---
+A car website where you can list cars, search for cars, and add a new car.
 
 ## 📦 Getting Started
 
