@@ -5,6 +5,8 @@ A car website where you can list cars, search for cars, and add a new car.
 
 This was a school assignment.
 
+MYSQL was used in this assignment so in order to use the code properly, you have to install the MYSQL workbench and add the database there etc.
+
 ## 📦 Getting Started
 
 To set up and run Autosivusto locally, follow these steps:
